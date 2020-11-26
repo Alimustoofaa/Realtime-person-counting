@@ -124,7 +124,7 @@ def main():
 				tracker.update(rgb)
 				pos = tracker.get_position()
 
-				staritX  = int(pos.left())
+				startX  = int(pos.left())
 				startY  = int(pos.top())
 				endX    = int(pos.right())
 				endY    = int(pos.bottom())
